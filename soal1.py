@@ -1,13 +1,10 @@
 def convert_temperature(value, unit):
     if unit == 'C':
-        fahrenheit = (value * 9/5) + 32
-        return fahrenheit
+        return = (value * 9/5) + 32
     elif unit == 'F':
-        celsius = (value - 32) * 5/9
-        return celsius
+        return = (value - 32) * 5/9
     else:
         return "Unit tidak valid"
-
 
 # Input
 temperature = float(input("Masukkan suhu: "))
